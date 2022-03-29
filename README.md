@@ -1,6 +1,25 @@
 # KaliRougueAccessScanner
 This Repo leverages Kali Linux and AirCrack to scan Wireless Access Points
 
+## Version History
+### Python
+Version coded in: 3.9.8
+Version updated to: 3.9.8
+### NMAP
+Version used: 7.92
+> liblua-5.3.6
+> openssl-1.1.1l
+> libssh2-1.10.0
+> libz-1.2.11
+> libpcre-8.39
+> nmap-libpcap-1.7.3
+> nmap-libdnet-1.12
+https://nmap.org
+### Aircrack-ng
+Version used: 1.6
+https://www.aircrack-ng.org
+
+
 
 ## Rogue Access Point Scanning Procedure
 
