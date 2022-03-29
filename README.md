@@ -8,9 +8,6 @@ This Repo leverages Kali Linux and AirCrack to scan Wireless Access Points
 2. Reboot the laptop and boot from the USB
 3. Open terminal in Kali and access directory the python script is in
 4. Enter `python3 scan.py`
-> scan.py contains the following nmap scan:
-
-`nmap -sn -o nmap-results.txt <your testing ip>/24`
 
 > The rest of the file includes a prompt before start a wireless access point scan
 
