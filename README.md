@@ -4,6 +4,7 @@ This Repo leverages Kali Linux and AirCrack to scan Wireless Access Points
 ## Version History
 ### Python
 Version coded in: 3.9.8
+
 Version updated to: 3.9.8
 ### NMAP
 Version used: 7.92
