@@ -60,4 +60,4 @@ There are a couple device scan options if need be. The fast scan scans the devic
 > creates a wireshark file that shows broadcasts made to certain Access Points
 > 
 > creates an NMAP text file with all devices scanned and their MAC Addresses
-9. Sorting the .csv files will help cut out all the things we don't need, and help focus out the stuff we do
+
