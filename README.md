@@ -35,7 +35,7 @@ The scan file can also compare and contrasts to an authorized devices csv file i
 
 > Third column is the nmap-detected manufacturer of the device
 
-There are a couple device scan options if need be. The fast scan scans the devices top 50 most scanned ports at the most. The default scan scans the top 200 ports and if nothing shows, scans 400. The extensive scan scans the top 2000 ports of the devices on the network. The scan times may vary depending on the devices connected to a network and the extense of the scan used. It is recommended to use smaller scans on networks with many devices, and vise versa an extensive scan would be more quick on a network with fewer devices. Also note with NMAP that in order to return a MAC Address from a network scan, you must be connected to that network, otherwise you will not get any MAC Addresses from the devices scanned.
+There are a couple device scan options if need be. The fast scan scans the devices top 50 most scanned ports at the most. The default scan scans the top 200 ports and if nothing shows, scans 400. The extensive scan scans the top 800 ports of the devices on the network. The scan times may vary depending on the devices connected to a network and the extense of the scan used. It is recommended to use smaller scans on networks with many devices, and vise versa an extensive scan would be more quick on a network with fewer devices. Also note with NMAP that in order to return a MAC Address from a network scan, you must be connected to that network, otherwise you will not get any MAC Addresses from the devices scanned. **NOTE: Extensive scan takes priority over the fast scan. If both enabled with True, you will always get an extensive scan!**
 
 
 ## Rogue Access Point Scanning Procedure
