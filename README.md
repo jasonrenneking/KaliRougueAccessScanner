@@ -25,7 +25,7 @@ https://www.aircrack-ng.org
 ## Notes
 When you download the scan python file, be mindful of its location. Its location is where the output files go, but is also the directory you will have to be under to run the file. Under our current configuration to make things easier, we created a python file in the default terminal directory that runs `os.system('cd <dir> && python3 scan.py')`. This just accesses its directory and runs.
 
-**CAUTION: With use of both NMAP and the Aircrack-ng scanning utilities, make sure any Access Point or device scans you do are permitted with the owners of the network and devices. Port and vulnerability scans without permissions, while not outright illegal, can lead to civil lawsuits from receiving parties. Be smart when using these utilities, and use them within your own bounds.
+**CAUTION: With use of both NMAP and the Aircrack-ng scanning utilities, make sure any Access Point or device scans you do are permitted with the owners of the network and devices. Port and vulnerability scans without permissions, while not outright illegal, can lead to civil lawsuits from receiving parties. Be smart when using these utilities, and use them within your own bounds.**
 
 The scan can also include devices, simply add the IP you want to scan its devices with under `ip = `. The IP must end in 0 as if does a full run through of the IPs (Ex: 192.168.3.0).
 
